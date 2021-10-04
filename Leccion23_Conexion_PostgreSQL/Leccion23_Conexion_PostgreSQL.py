@@ -9,7 +9,7 @@
 
 import psycopg2
 
-psw = 'ingganafis91'
+psw = 'yourpsw'
 # Leer Todo
 conexion = psycopg2.connect(user='postgres', password=psw,
                             host='127.0.0.1', port=5432, database='test_db')
